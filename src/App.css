@@ -1,0 +1,456 @@
+    /* ---------------------------------  */
+    /* Haeder starts here  */
+    /* ---------------------------------  */
+    .header{padding: 12px 10px; font-size:16px}
+
+    .header li{
+        margin:0 20px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .header a{position:relative;}
+
+    .header a.active:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #1089f5;
+        position: absolute;
+        bottom: -24px;
+        left: 0;
+    }
+    
+    .header a.active {color: #1089f5;}
+    .header li:hover{color:#1089f5;}
+
+    .header button{
+        margin-left: 20px;
+        cursor: pointer;
+        width: 108px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #1089f5;
+        color: #fff;
+        font-size:14px;
+        border:0;
+        outline:none;
+        font-weight: 500;
+        transition: 450ms all;
+    }
+
+    .header button:hover{
+        background-color: #b3d7f8;
+        color: #1089f5;
+    }
+
+    .header .hamburger{
+        max-width: 24px;
+        max-height:24px;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        display:none;
+    }
+
+    .header .hamburger span{
+        width: 24px;
+        height: 2px;
+        background-color: #051f33;
+        margin: 3px 0;
+    }
+
+    /* ---------------------------------  */
+    /* Haeder ends here  */
+    /* ---------------------------------  */
+
+    /* ---------------------------------  */
+    /* ATF section start here  */
+    /* ---------------------------------  */
+    .atf-section{
+        background-color: #000a37;
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+    }
+
+    .info h1{
+        font-size: 48px;
+        line-height: 1.25;
+        color: #fff;
+        margin-bottom: 32px;
+    }
+
+    .info h1 span{font-weight: 700;}
+
+    .info p{
+        font-size: 20px;
+        line-height: 1.2;
+        color: #fff;
+    }
+    /* ---------------------------------  */
+    /* ATF section ends here  */
+    /* ---------------------------------  */
+
+    /* ---------------------------------  */
+    /* BTF section ends here  */
+    /* ---------------------------------  */
+    .btf-section{
+        color: #051f33;
+        padding: 100px 0px;
+    }
+
+    .btf-section h2{
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    
+    }
+    
+    .btf-section .btf-info{
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 56px;
+    }
+
+    .btf-section ul li h3{
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.43;
+        letter-spacing: 0.7px;
+        margin: 24px 0 12px;
+    }
+
+    .btf-section ul li p{
+        font-size: 16px;
+        line-height: 1.38;
+        min-height: 72px;
+    }
+
+
+    .btf-section ul li{
+        width: 31.3%;
+        height: 348px;
+        border-radius: 10px;
+        margin-bottom: 32px;
+        transition:all 450ms;
+        cursor: pointer;
+    }
+
+    .btf-section ul li img{
+        width: 100%;
+        border-radius: 13px 13px 0 0;
+    }
+
+    .btf-section ul li:hover{box-shadow: 0 -3px 57px 0 rgba(0, 17, 89, 0.11);}
+    .btf-section ul li .text-info{padding: 0 16px;}
+   
+    /* ---------------------------------  */
+    /* BTF section ends here  */
+    /* ---------------------------------  */
+
+    /* ---------------------------------  */
+    /* about-us section starts here  */
+    /* ---------------------------------  */
+    .about-atf-section{
+        background-position:center;
+        background-repeat:no-repeat;
+        background-color: #062b78;
+        background-size: cover;
+        height: calc(100vh - 64px);
+        width: 100%;
+    }
+    /* ---------------------------------  */
+    /* about-us section ends here  */
+    /* ---------------------------------  */
+
+
+    /* ---------------------------------  */
+    /* login section starts here  */
+    /* ---------------------------------  */
+    .login-section{
+        background-color: #f6f9fc;
+        background-size: cover;
+        height: calc(100vh - 64px);
+        min-height: 593px;
+        width: 100%;
+        position: relative;
+    }
+
+    .login-wrapper{
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        height: 536px;
+        padding: 0px 15px;
+        border-radius: 16px;
+        border: solid 1px #ced3d7;
+        background-color: #ffffff;
+    }
+
+    .login-wrapper .logo{margin: 56px auto 24px;}
+
+    .login-wrapper h2{
+        font-size: 28px;
+        font-weight: 700;
+        color: #051f33;
+    }
+    .login-wrapper .login-info{
+        font-size: 16px;
+        color: #051f33;
+        margin: 8px auto 38px;
+    }
+
+    input{
+        width: 100%;
+        max-width: 400px;
+        height: 56px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        border: solid 1px #697985;
+        outline: none;
+        color: #051f33;
+        font-size: 18px;
+        line-height: 1.33;
+        padding: 16px;
+    }
+
+    .input-field input:focus{border: 2px solid #1089f5;}
+    .login-wrapper input[type='password']{font-size: 2.3rem; padding-right: 60px;}
+
+    .input-field {
+        max-width: 400px;
+        height: 58px;
+        margin: 0 auto 16px;
+        position: relative;
+        border-radius: 4px;
+      }
+
+    label {
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: #d3d3d3;
+        transition: 0.2s all;
+        cursor: text;
+        font-size: 18px;
+        color: #697985;
+        pointer-events: none;
+      }
+
+      .input-field:focus-within label,
+      .input-field input:valid + label {
+        font-size: 14px;
+        top: -7px;
+        color: #1089f5;
+        background:#fff;
+        padding: 0 5px;
+        border-color: #1089f5;
+    }
+
+    .labelinput {
+        font-size: 14px;
+        top: -7px;
+        color: #1089f5;
+        background:#fff;
+        padding: 0 5px;
+    }
+
+    .login-wrapper .submit-btn{
+        background-color: #1089f5 !important;
+        color: #fff;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 500;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        border-radius: 8px;
+        background-size: 75px !important;
+    }
+    .login-wrapper .submit-btn:focus{border: none;}
+
+    .bg-login-right{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -222px;
+    }
+
+    .bg-login-left{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .input-wrap{
+        max-width: 400px;
+        height: 58px;
+        margin:0 auto 16px;
+        position: relative;
+        border: solid 1px #697985;
+        border-radius: 4px;
+    }
+    .input-wrap:last-child{margin: 32px auto 0;}
+
+    .alert{
+        position: absolute;
+        top: 0;
+        right: 48px;
+        width: 688px;
+        height: 0;
+        border-radius: 4px;
+        background-color: #00bc9c;
+        text-align: left;
+        font-size: 14px;
+        color:#fff;
+        transition: all 300ms;
+        overflow: hidden;
+        padding: 0 16px;
+    }
+
+    .alert-show{
+        height: 48px;
+        top: 20px;
+    }
+    
+    .alert p{
+        line-height:48px;
+        margin-left: 40px;
+    }
+
+    .close{cursor: pointer}
+
+    .input-field small{
+       visibility:hidden;
+       color: #d93025;
+    }
+
+    .input-field.error small{visibility:visible;}
+    .error{border:2px solid #d93025;}
+    .success{border:2px solid #1089f5;}
+
+    .hide-show{
+        font-size: 16px;
+        color: #697985;
+        position: absolute;
+        top: 50%;
+        margin-top: -8px;
+        right: 12px;
+        cursor: pointer;
+        user-select: none;
+        text-transform: capitalize;
+    }
+
+    /* ---------------------------------  */
+    /* login section ends here  */
+    /* ---------------------------------  */
+    .login-wrapper{max-width: 760px;}
+    .bg-login-right img{width: 170px; height: 500px;}
+    .bg-login-left img{width: 170px; height: 320px;}
+
+    @media only screen and (max-width: 1366px){
+        .login-wrapper{height: 500px;}
+    }
+
+   
+    @media only screen and (min-width: 1980px){
+       .grid{max-width: 1200px; padding: 0 45px;}
+       .header{padding: 12px 10px;}
+    }
+
+    /* ---------------------------------  */
+    /* Tablet View  */
+    /* ---------------------------------  */
+    @media only screen and (max-width: 1180px){
+        .grid{padding: 0 45px;}
+        .header{padding: 12px 45px 12px 20px;}
+        .header a.active:after{display: none}
+        .header .hamburger{display:flex;}
+        .header .hamburger .sec-bar.false {display: none;}
+        .header .hamburger .last-bar.false{-webkit-transform: rotate(-45deg);transform: rotate(-45deg);}
+        
+        .header .hamburger .first-bar.false {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position:absolute;
+        }
+        
+        .header .nav{
+            display: flex;
+            height:0;
+            overflow: hidden;
+            transition: all 450ms;
+            background: #fff;
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 60px;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+        }
+        
+        .header .nav a{width: 100%;}
+        
+        .header .nav li{
+            border-bottom: 2px solid #e6e9eb;
+            padding-bottom: 10px;
+        }
+        
+        .header .true{height:160px !important;}
+        .header button{margin-left: 0;}
+        .logo{width: 144px; margin: 0 auto;}
+        .info h1{font-size: 32px;}
+        .info p,.btf-section .btf-info{font-size: 18px;}
+
+        .atf-section {background-size: cover; height: 320px;}
+        .btf-section{padding: 40px 0px;}
+
+        .btf-section ul li{
+            width: 47.8%;
+            height: auto;
+            box-shadow: 0 -3px 57px 0 rgb(0 17 89 / 11%);
+        }
+
+        .about-atf-section{height: 448px;}
+        .login-wrapper{max-width: 540px;}
+        .bg-login-right,.bg-login-left{display:none}
+
+        .alert{
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 90%;
+        }
+       
+    }
+
+    /* ---------------------------------  */
+    /* Mobile View  */
+    /* ---------------------------------  */
+    @media only screen and (max-width: 600px){
+        .grid{padding: 0 15px;}
+        .header{padding: 12px 15px;}
+        .atf-section{background-position: right;}
+        .info h1 {font-size: 20px;margin-bottom: 12px;}
+        .info p, .btf-section .btf-info{font-size: 14px; line-height: 1.43;}  
+        .btf-section h2{font-size: 20px;}
+        .btf-section ul li{width: 100%; }
+        .btf-section h2{margin-bottom: 16px;}
+        .btf-section .btf-info{margin-bottom: 36px;}
+        .btf-section ul li h3{font-size: 16px; margin: 18px 0 6px;}
+        .btf-section ul li p{font-size: 12px;}
+        .about-atf-section{height: 240px;}
+        .login-wrapper .logo{margin-top: 40px;}
+        .login-wrapper{height: 426px;}
+        .login-wrapper input{height: 48px;}
+        .input-wrap{margin-bottom: 20px;}
+        .input-wrap:last-child{margin: 24px auto 0;}
+        label{top: 19px; font-size: 14px;}
+        .alert{font-size: 12px;}
+        .alert p{margin-left: 20px;}
+    }
